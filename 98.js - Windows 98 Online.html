@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://98.js.org/ -->
+<html style="--checker: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdjPHHjxv8TNy4wME7YsOK/hYYBAwBmuglhJWwhGQAAAABJRU5ErkJggg==&quot;); --button-active-border-image: url(&quot;data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256px%22%20height%3D%22256px%22%20viewBox%3D%220%200%20256%20256%22%3E%0A%09%09%09%0A%09%09%3Cpath%20d%3D%22M0%200h256v256h-256v-256z%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M32%2032h192v192h-192v-192z%22%20fill%3D%22rgb(88%2C%20128%2C%20120)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M64%2064h128v128h-128v-128z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%0A%09%09%3C%2Fsvg%3E&quot;) 64 / 2px; --button-normal-border-image: url(&quot;data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256px%22%20height%3D%22256px%22%20viewBox%3D%220%200%20256%20256%22%3E%0A%09%09%09%0A%09%09%3Cpath%20d%3D%22M0%200h224v32h-192v192h-32v-224z%22%20fill%3D%22rgb(200%2C%20216%2C%20216)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M224%200h32v256h-256v-32h224v-224z%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M32%2032h160v32h-128v128h-32v-160z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M192%2032h32v192h-192v-32h160v-160z%22%20fill%3D%22rgb(88%2C%20128%2C%20120)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M64%2064h128v128h-128v-128z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%0A%09%09%3C%2Fsvg%3E&quot;) 64 / 2px; --inset-deep-border-image: url(&quot;data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256px%22%20height%3D%22256px%22%20viewBox%3D%220%200%20256%20256%22%3E%0A%09%09%09%0A%09%09%3Cpath%20d%3D%22M0%200h224v32h-192v192h-32v-224z%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M224%200h32v256h-256v-32h224v-224z%22%20fill%3D%22rgb(200%2C%20216%2C%20216)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M32%2032h160v32h-128v128h-32v-160z%22%20fill%3D%22rgb(88%2C%20128%2C%20120)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M192%2032h32v192h-192v-32h160v-160z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M64%2064h128v128h-128v-128z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%0A%09%09%3C%2Fsvg%3E&quot;) 64 / 2px; --button-default-border-image: url(&quot;data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256px%22%20height%3D%22256px%22%20viewBox%3D%220%200%20256%20256%22%3E%0A%09%09%09%0A%09%09%3Cpath%20d%3D%22M0%200h256v256h-256v-256z%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M32%2032h160v32h-128v128h-32v-160z%22%20fill%3D%22rgb(200%2C%20216%2C%20216)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M64%2064h96v32h-64v64h-32v-96z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M160%2064h32v128h-128v-32h96v-96z%22%20fill%3D%22rgb(88%2C%20128%2C%20120)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M96%2096h64v64h-64v-64z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%09%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22256%22%20height%3D%22256%22%20stroke-width%3D%2264%22%20stroke%3D%22rgb(0%2C%200%2C%200)%22%20fill%3D%22none%22%2F%3E%0A%09%0A%09%09%3C%2Fsvg%3E&quot;) 96 / 3px; --button-default-active-border-image: url(&quot;data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256px%22%20height%3D%22256px%22%20viewBox%3D%220%200%20256%20256%22%3E%0A%09%09%09%0A%09%09%3Cpath%20d%3D%22M0%200h256v256h-256v-256z%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M32%2032h192v192h-192v-192z%22%20fill%3D%22rgb(88%2C%20128%2C%20120)%22%2F%3E%0A%09%09%3Cpath%20d%3D%22M64%2064h128v128h-128v-128z%22%20fill%3D%22rgb(144%2C%20176%2C%20168)%22%2F%3E%0A%09%09%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22256%22%20height%3D%22256%22%20stroke-width%3D%2264%22%20stroke%3D%22rgb(0%2C%200%2C%200)%22%20fill%3D%22none%22%2F%3E%0A%09%0A%09%09%3C%2Fsvg%3E&quot;) 64 / 2px; --scrollbar-arrows-ButtonText: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAJCAYAAABaMo5wAAAAAXNSR0IArs4c6QAAAFtJREFUOE9jZBhkgHGQuYeBVg76z8BAtNkoapEdBJJAB7gcTMhCmFmEPIyhDl0DsqPwOQbmcKqrwWYgPt8TG4pUCyFqpXFCUYpsD840RC3HUGQOoURHkeHkaAYAaF4QCuqIjIcAAAAASUVORK5CYII=&quot;); --scrollbar-arrows-GrayText: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAJCAYAAABaMo5wAAAAAXNSR0IArs4c6QAAAGBJREFUOE9jZBhkgHGQuYeBJg6KaKj4v6Khgyiz0dXCNYEk0EMLl6GELISZRchR2NSh+ALZUfgcA3M4LdRgBCs+3xMbilQLIWolcEJRimwPzjRELcdQag5ROYFSS0jRDwC0ZkAKrnNo9QAAAABJRU5ErkJggg==&quot;); --scrollbar-arrows-ButtonHilight: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAJCAYAAABaMo5wAAAAAXNSR0IArs4c6QAAAGBJREFUOE9jZBhkgHGQuYeBJg46cePGfwsNDaLMRlcL1wSSQA8tXIYSshBmFiFHYVOH4gtkR+FzDMzhtFCDEaz4fE9sKFIthKiVwAlFKbI9ONMQtRxDqTlE5QRKLSFFPwBa9UAKnwo25QAAAABJRU5ErkJggg==&quot;); --scrollbar-size: 13px; --scrollbar-button-inner-size: 9px; --ActiveTitle: rgb(88, 128, 120); --Background: rgb(64, 0, 64); --Hilight: rgb(88, 128, 120); --HilightText: rgb(255, 255, 255); --TitleText: rgb(255, 255, 255); --Window: rgb(255, 255, 255); --WindowText: rgb(0, 0, 0); --Scrollbar: rgb(144, 176, 168); --InactiveTitle: rgb(144, 176, 168); --Menu: rgb(144, 176, 168); --WindowFrame: rgb(0, 0, 0); --MenuText: rgb(0, 0, 0); --ActiveBorder: rgb(144, 176, 168); --InactiveBorder: rgb(144, 176, 168); --AppWorkspace: rgb(128, 128, 128); --ButtonFace: rgb(144, 176, 168); --ButtonShadow: rgb(88, 128, 120); --GrayText: rgb(88, 128, 120); --ButtonText: rgb(0, 0, 0); --InactiveTitleText: rgb(88, 128, 120); --ButtonHilight: rgb(200, 216, 216); --ButtonDkShadow: rgb(0, 0, 0); --ButtonLight: rgb(144, 176, 168); --InfoText: rgb(128, 0, 128); --InfoWindow: rgb(255, 255, 255); --GradientActiveTitle: rgb(131, 75, 131); --GradientInactiveTitle: rgb(203, 189, 210); --ButtonAlternateFace: rgb(192, 192, 192); --HotTrackingColor: rgb(88, 128, 120); --MenuHilight: rgb(0, 0, 0); --MenuBar: rgb(144, 176, 168);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>98.js - Windows 98 Online</title>
+		<link href="./98.js - Windows 98 Online_files/layout.css" rel="stylesheet" type="text/css">
+		<link href="./98.js - Windows 98 Online_files/layout(1).css" rel="stylesheet" type="text/css">
+		<link href="./98.js - Windows 98 Online_files/windows-98.css" rel="stylesheet" type="text/css">
+		<link href="./98.js - Windows 98 Online_files/clippy.css" rel="stylesheet" type="text/css">
+		<link href="./98.js - Windows 98 Online_files/classic.css" rel="stylesheet" type="text/css">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://98.js.org/apple-touch-icon.png?v=LbWArJzeO7">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://98.js.org/favicon-32x32.png?v=LbWArJzeO7">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://98.js.org/favicon-16x16.png?v=LbWArJzeO7">
+		<link rel="manifest" href="https://98.js.org/site.webmanifest?v=LbWArJzeO7">
+		<link rel="mask-icon" href="https://98.js.org/safari-pinned-tab.svg?v=LbWArJzeO7" color="#5bbad5">
+		<link rel="shortcut icon" href="https://98.js.org/favicon.ico?v=LbWArJzeO7">
+		<meta name="apple-mobile-web-app-title" content="98.js">
+		<meta name="application-name" content="98.js">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="theme-color" content="#008080">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<!-- For WayBack Machine, hopefully get it to save these resources -->
+		<link rel="prefetch" href="https://98.js.org/filesystem-index.json">
+		<link rel="prefetch" href="https://98.js.org/desktop/CREDITS.txt">
+		<link rel="prefetch" href="https://98.js.org/programs/notepad/index.html">
+	<style>@font-face {
+              font-family: 'Open Sans Regular';
+              font-style: normal;
+              font-weight: 400;
+              src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+          }</style><style>@font-face {
+              font-family: 'Open Sans Bold';
+              font-style: normal;
+              font-weight: 800;
+              src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/OpenSans-Bold.woff');
+          }</style><style>@font-face {
+              font-family: 'Open Sans ExtraBold';
+              font-style: normal;
+              font-weight: 800;
+              src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+          }</style></head>
+	<body class="">
+		<div class="desktop" style="background-image: url(&quot;images/clouds.jpg&quot;); background-size: cover; background-position: center center; touch-action: none;"><div class="folder-view" tabindex="0" data-view-mode="DESKTOP"><div class="marquee" style="position: absolute; left: 519px; top: 331px; width: 0px; height: 0px; display: none;"></div><div class="desktop-icon focused" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 0px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/my-computer-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/my-computer-32x32.png&quot;);"></div></div><div class="title">My Computer</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 75px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/my-documents-folder-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/my-documents-folder-32x32.png&quot;);"></div></div><div class="title">My Documents</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 150px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/network-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/network-32x32.png&quot;);"></div></div><div class="title">Network Neighborhood</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 225px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/recycle-bin-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/recycle-bin-32x32.png&quot;);"></div></div><div class="title">Recycle Bin</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 300px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/folder-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/folder-32x32.png&quot;);"></div></div><div class="title">My Pictures</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 450px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/internet-explorer-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/internet-explorer-32x32.png&quot;);"></div></div><div class="title">Internet Explorer</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 525px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/paint-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/paint-32x32.png&quot;);"></div></div><div class="title">Paint</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 600px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/minesweeper-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/minesweeper-32x32.png&quot;);"></div></div><div class="title">Minesweeper</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 675px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/speaker-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/speaker-32x32.png&quot;);"></div></div><div class="title">Sound Recorder</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 750px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/solitaire-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/solitaire-32x32.png&quot;);"></div></div><div class="title">Solitaire</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 0px; top: 825px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/notepad-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/notepad-32x32.png&quot;);"></div></div><div class="title">Notepad</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 0px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/winamp2-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/winamp2-32x32.png&quot;);"></div></div><div class="title">Winamp</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 75px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/pipes-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/pipes-32x32.png&quot;);"></div></div><div class="title">3D Pipes</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 150px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/pipes-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/pipes-32x32.png&quot;);"></div></div><div class="title">3D Flower Box</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 225px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/msdos-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/msdos-32x32.png&quot;);"></div></div><div class="title">MS-DOS Prompt</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 300px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/calculator-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/calculator-32x32.png&quot;);"></div></div><div class="title">Calculator</div></div><div class="desktop-icon shortcut" draggable="true" tabindex="-1" data-file-path="undefined" style="touch-action: none; left: 75px; top: 375px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/pinball-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/pinball-32x32.png&quot;);"></div></div><div class="title">Pinball</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="/desktop/CREDITS.txt" style="touch-action: none; left: 75px; top: 450px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/notepad-file-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/notepad-file-32x32.png&quot;);"></div></div><div class="title">CREDITS.txt</div></div><div class="desktop-icon" draggable="true" tabindex="-1" data-file-path="/desktop/Themes" style="touch-action: none; left: 0px; top: 375px;"><div class="icon-wrapper" style="--icon-size: 32px; --shortcut-icon: url(&quot;https://98.js.org/images/icons/shortcut-32x32.png&quot;);"><img class="icon" draggable="false" src="./98.js - Windows 98 Online_files/folder-32x32.png" width="32" height="32"><div class="selection-effect" style="--icon-image: url(&quot;https://98.js.org/images/icons/folder-32x32.png&quot;);"></div></div><div class="title">Themes</div></div></div></div>
+		<div class="taskbar" style="z-index: 5000;">
+			<button class="start-button toggle" title="Click here to begin.">
+				<img src="./98.js - Windows 98 Online_files/start.png"><b>Start</b>
+			</button>
+			<div class="taskbar-divider"></div>
+			<!-- TODO: pinned apps and resizing handles -->
+			<div class="tasks"></div>
+			<div class="taskbar-divider"></div>
+			<div class="tray inset-shallow">
+				<div class="tray-icons">
+					<img class="tray-icon" src="./98.js - Windows 98 Online_files/task-scheduler-16x16.png" title="Task Scheduler is not ready." onclick="showMessageBox({iconID: &#39;info&#39;, message: &#39;Good day to you!&#39;})">
+					<img class="tray-icon" src="./98.js - Windows 98 Online_files/audio-okay-16x16.png" title="Volume" onclick="showMessageBox({iconID: &#39;info&#39;, message: &#39;Have a wonderful day!&#39;})">
+				</div>
+				<div class="taskbar-time" ondblclick="showMessageBox({iconID: &#39;info&#39;, message: &#39;Time to get an old clock!&#39;})" title="Friday 23 May at 03:11">03:11</div>
+			</div>
+		</div>
+		<div class="start-menu outset-deep" hidden="hidden" style="display: none; z-index: 5001;">
+			<div class="start-menu-titlebar"></div>
+			<div class="start-menu-content">
+				<h1 style="font-family: cursive; font-size: 2em;">’S tart</h1>
+				<h2 style="font-family: cursive; font-size: 1em; color: gray; margin: 0; margin-left: 300px; white-space: nowrap;">’s a strawberry tart</h2>
+				<img src="./98.js - Windows 98 Online_files/CK1IhDr.gif">
+			</div>
+		</div>
+		<script src="./98.js - Windows 98 Online_files/jquery.min.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/browserfs.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/clippy.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/konami.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/parse-theme.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/MenuBar.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/$Window.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/msgbox.js.download"></script>
+		<script>defaultMessageBoxTitle = "Windows";</script>
+		<script src="./98.js - Windows 98 Online_files/3d-fun.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/helpers.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/filesystem-setup.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/iframe-windows.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/Task.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/$taskbar-time.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/$start-menu.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/FolderView.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/FolderViewItem.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/$desktop.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/window-switcher.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/visualizer-overlay.js.download"></script>
+		<script src="./98.js - Windows 98 Online_files/programs.js.download"></script>
+
+		<!-- TODO: DRY -->
+		<svg style="position: absolute; pointer-events: none; bottom: 100%;">
+			<defs>
+				<filter id="disabled-inset-filter" x="0" y="0" width="1px" height="1px">
+					<fecolormatrix in="SourceGraphic" type="matrix" values="
+							1 0 0 0 0
+							0 1 0 0 0
+							0 0 1 0 0
+							-1000 -1000 -1000 1 0
+						" result="black-parts-isolated"></fecolormatrix>
+					<feflood result="shadow-color" flood-color="var(--ButtonShadow)"></feflood>
+					<feflood result="hilight-color" flood-color="var(--ButtonHilight)"></feflood>
+					<feoffset in="black-parts-isolated" dx="1" dy="1" result="offset"></feoffset>
+					<fecomposite in="hilight-color" in2="offset" operator="in" result="hilight-colored-offset"></fecomposite>
+					<fecomposite in="shadow-color" in2="black-parts-isolated" operator="in" result="shadow-colored"></fecomposite>
+					<femerge>
+						<femergenode in="hilight-colored-offset"></femergenode>
+						<femergenode in="shadow-colored"></femergenode>
+					</femerge>
+				</filter>
+			</defs>
+		</svg>
+		<script>
+			// This doesn't seem to be a problem in the Help viewer,
+			// but better safe than sorry.
+			window.addEventListener("resize", ()=> {
+				// work around a browser bug in Chrome where
+				// the SVG filter behaves differently based on the INITIAL zoom level
+				// (if you zoom in, the icons get cut off, if you zoom out, the effect is too thick)
+				document.getElementById("disabled-inset-filter").setAttribute("x", "0");
+			});
+		</script>
+	
+
+<audio class="audio-output" style="display: none;"></audio><div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div></body></html>
